@@ -1,0 +1,436 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffff;
+}
+.nav-bar{
+  
+    width: 100%;
+}
+.nav-part1{
+background-color: #ffff;
+display: flex;
+flex-direction: row;
+height: 4.5rem;
+padding-bottom: 1.5rem;
+padding-top: 1.263rem;
+
+
+align-items: center;
+
+}
+
+.logo{
+ margin-left: 7.78rem;  
+    
+    
+}
+.logo-img{
+    width: 7.9rem;
+}
+
+
+.serach-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.text1:focus{
+    box-shadow: none;
+    outline: 0.7px solid #ccc;
+    border-color: #ffff;
+}
+.select-option{
+    padding-left: 1.06rem;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 0.7;
+   
+}
+.location{
+    opacity: 0.7;
+    width: 15.1rem;
+    height: 3.25rem;
+    border-radius:5px;
+    
+
+}
+.search-icon{
+    background-color: transparent;
+    border-right: none;
+}
+.text1{
+   height: 3.25rem;
+   opacity: 0.7;
+   border-radius:5px;
+   margin-left: 3rem;
+   width: 27.6rem;
+
+
+   
+}
+.nav-button{
+    display: flex;
+      
+}
+.nav-link1{
+    text-decoration: none;
+    opacity: 0.7;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    color: #828282;
+    font-size: 17px;
+    font-weight: 300;
+
+}
+.nav-link2{
+    text-decoration: none;
+    opacity: 0.7;
+    margin-right: 7.9rem;
+    font-size: 17px;
+    font-weight: 300;
+    color: #828282;
+}
+.nav-part2{
+width: 68.75rem;
+height: 1.3rem;
+margin-left: 7.9rem;
+display: flex;
+}
+.nav-part2-link
+{
+    text-decoration: none;
+    color: #828282;
+    font-weight: 200;
+    font-size: 12px;
+    
+}
+.nav-part2-link:hover{
+    color: red;
+}
+.nav-link-span{
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #828282;
+    font-weight: 200;
+    font-size: 12px;
+}
+.nav-part2-links{
+    text-decoration: none;
+    color: #828282;
+    font-weight: 200;
+    font-size: 12px;
+    opacity: 0.7;
+
+}
+
+
+.nav-part3{
+   
+    width: 68.75rem;
+     height: 5.56rem;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     margin-left: 7.9rem;
+     display: flex;
+     
+}
+
+
+  .button-nav{
+    background-color: transparent;
+    font-size: 14px;
+    width: 5.0rem;
+    height: 2.3rem;
+    border-radius: 5px;
+    color: #828282;
+    border: 1px solid rgb(207, 207, 207);
+    margin-right: 1.5rem;
+    text-align: center;
+
+    
+  }
+  .button-nav-drop{
+    font-size: 2px;
+  }
+.icon-btn{
+    margin-right: 2px;
+}
+  .button-nav:hover{
+    background-color:#f5eeee;
+  }
+
+
+.first-order{
+    height: 21rem;
+    background-color: #F8F8F8;
+    width: 100%;
+    font-size: 30px;
+    word-spacing:3px;
+    
+    
+}
+.first-order-heading{
+    font-size: 30px;
+    font-weight: 400;
+   margin-left: 7.9rem;
+  padding-top: 2.5rem;
+   margin-bottom: 2rem;
+ 
+    
+   
+}
+.food-card{
+    display: flex;
+    flex-direction: row;
+   flex-wrap: nowrap;
+  padding-bottom: 2.5rem;
+    
+   
+}
+.card{
+    width: 9.3rem;
+    height: 9.3rem;
+    margin-left: 7.9rem;
+    border-radius: 50%;
+    
+
+}
+.card:hover{
+    box-shadow: 2px 2px 20px #828282;
+    cursor:pointer;
+    transition-duration: 2ms;
+
+
+
+}
+.card-img-top{
+    border-radius: 50%;
+    width: 100%;
+}
+.card-text{
+    text-align: center;
+    font-size: 20px;
+    color: #363636;
+}
+
+.brands{
+    width: 68.7rem;
+    height: 19.07rem;
+    margin-left: 7.9rem;
+    margin-right: 7.9rem;
+    
+ 
+}
+.test{
+    display: flex;   
+    flex-direction: row;
+   flex-wrap: nowrap;
+   width: 57.2rem;
+   height: 14.8rem;
+  
+ 
+   
+}
+.brands-heading{
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.brands-card{
+    width: 9.2rem;
+    height: 9.3rem;
+    border-radius: 50%;
+    align-content: space-between;
+    
+    
+    
+}
+.brands-card:hover{
+    box-shadow: 2px 2px 20px #828282;
+    cursor:pointer;
+    transition-duration: 2ms;
+}
+
+.card-text2{
+    text-align: center;
+    font-size: 16px;
+    color: #1C1C1C;
+   margin-top: 1rem;
+   font-weight: 500;
+}
+.time{ text-align: center;
+    font-size: 14px;
+    color: #1C1C1C;
+   margin-top: 0.6rem;
+   font-weight: 400;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+
+}
+.brandmr{
+    margin-left: 8.5rem;
+    margin-right: 8.5rem;
+   
+}
+.brandmr2{
+    margin-right: 8.5rem;
+}
+.brand-img{
+    border-width: 12px;
+    border-color: #1C1C1C;
+   
+    padding: 2;
+ 
+   
+}
+.locatily{
+    margin-left: 7.9rem;
+    width: 68.75rem;
+   
+}
+.locatily-heading{
+    color: rgb(28, 28, 28);
+    font-size: 30px;
+    margin: 1rem 0px 3.2rem;
+    font-weight: 400;
+}
+
+.locatily-card{
+    width: 68.7rem;
+    height:21.8rem;
+    margin-top: 2.25rem;
+    margin-bottom:2.25rem;
+    
+}
+.anu{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.6;
+}
+
+.anu2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.body-card{
+    width: 21.8rem;
+    height: 21.8rem;
+    border-radius:20px;
+}
+.body-card:hover{
+    box-shadow: 2px 2px 20px #828282;
+    cursor:pointer;
+}
+.food-img-body{
+    width: 21.8rem;
+    height: 15.5rem;
+    object-fit: cover;
+    border-radius:20px;
+}
+.food-img-body-heading{
+    margin-top: 8px;
+    margin-bottom: 6px;
+    color: #828282;
+}
+.food-para{
+    color: #828282;
+}
+.food-body{
+    display: flex;
+    justify-content: space-between;
+}
+.rating{
+    text-decoration: none;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    color: #fff;
+    width: 3.2rem;
+    height: 1.2rem;
+    background-color: green;
+    border-radius: 8px;
+   text-align: center;
+    font-size: 12px;
+  
+}
+.rating-icon{
+    font-size: 10px;
+   text-align: center;
+   
+  
+}
+
+.food-body2{
+    display: flex;
+    justify-content: space-between;
+}
+.del-time{
+    text-align: right;
+    color: #828282;
+}
+
+.end-part{
+    width: 68.75rem;
+    height: 7.1rem;
+    margin-left: 7.9rem;
+    margin-right: 7.9rem;
+   
+   
+    
+
+}
+.end-part2{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 18.7rem;
+    margin-bottom: 3.1rem;
+    align-items: center;
+    opacity: 0.7;
+}
+.house-img{
+    width: 7.8rem;
+    height: 6.8rem;
+    margin-left: 8rem;
+
+}
+.drowp-end{
+    width: 100%;
+    height: 25.25rem;
+    background-color: #FCFCFC;
+}
+.drop-part2{
+    padding-top: 3.12rem;
+    padding-bottom: 3.12rem;
+    margin-left: 7.9rem;
+    margin-right: 7.9rem;
+}
+.endtesto{
+    width: 68.62rem;
+    height: 4.1rem ;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+.endtesto:hover{
+    box-shadow: 2px 2px 20px #828282;
+    cursor:pointer;
+    transition-duration: 2ms;
+}
+
+
+
+
+
+
+
+

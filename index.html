@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato</title>
+    <link
+      rel="shortcut icon"
+      href="Assets/Zomato_logo_fav.png"
+      type="image/x-icon"
+    />
+    <!--Fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Icons links-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Bootstrap link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav-bar">
+        <div class="nav-part1">
+          <div class="logo">
+            <img src="Assets/logo-removebg.png" class="logo-img" alt="" />
+          </div>
+          <div class="serach-box">
+            <div class="select-option">
+              <select disabled class="location">
+                <option value="0">📌Connaught Place,Delhi</option>
+              </select>
+            </div>
+            <div class="input-group text1">
+              <span pan class="input-group-text search-icon">
+                <i
+                  class="fa-solid fa-magnifying-glass"
+                  style="color: #828282"
+                ></i>
+              </span>
+              <input
+                type="text"
+                class="form-control text1"
+                placeholder="Search for restaurant, cuisine or a dish"
+                aria-label="Recipient's username with two button addons"
+              />
+            </div>
+          </div>
+          <div class="nav-button">
+            <a href="#" class="nav-link1">Log in</a>
+            <a href="#" class="nav-link2">Sign up</a>
+          </div>
+        </div>
+        <div class="nav-part2">
+          <a href="" class="nav-part2-link">Home</a>
+          <span class="nav-link-span">/</span>
+          <a href="" class="nav-part2-link"> India</a>
+          <span class="nav-link-span">/</span>
+          <a href="" class="nav-part2-link">Cannaught Place </a>
+          <span class="nav-link-span">/</span>
+          <a href="" class="nav-part2-links"
+            >Cannaught Place Locality Restaurant</a
+          >
+        </div>
+
+        <div class="nav-part3">
+          <button type="button" class="button-nav">Filter</button>
+          <button class="button-nav">Pure Veg</button>
+          <select disabled class="button-nav">
+            <option value="0">Cuisine</option>
+          </select>
+        </div>
+      </div>
+      <div class="food">
+        <div class="first-order">
+          <h3 class="first-order-heading">Inspiration for your first order</h3>
+          <div class="main-card">
+            <div class="food-card">
+              <div class="card">
+                <img
+                  src="Assets/food_card (19).png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Pizza</p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="Assets/food_card (18).png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Burger</p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="Assets/food_card (20).png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Cake</p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="Assets/food_card (10).png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Noodles</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="brands">
+          <h3 class="brands-heading">Top brands for you</h3>
+          <div class="test">
+            <div class="brands-card">
+              <img
+                src="Assets/food_card (2).png"
+                class="card-img-top brand-img"
+                alt="..."
+              />
+              <div class="card-body-brands">
+                <h6 class="card-text-brands card-text2">Domino's Pizza</h6>
+                <h6 class="time">26 MIN</h6>
+              </div>
+            </div>
+            <div class="brands-card brandmr">
+              <img
+                src="Assets/food_card (5).png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body-brands">
+                <h6 class="card-text-brands card-text2">
+                  The Belgian Waffle Co.
+                </h6>
+                <h6 class="time">26 Min</h6>
+              </div>
+            </div>
+
+            <div class="brands-card brandmr2">
+              <img
+                src="Assets/food_card (22).png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body-brands">
+                <h6 class="card-text-brands card-text2">Pizza Box</h6>
+                <h6 class="time">23 Min</h6>
+              </div>
+            </div>
+
+            <div class="brands-card">
+              <img
+                src="Assets/store icon (1).png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body-brands">
+                <h6 class="card-text-brands card-text2">
+                  Baskin Robbins - Ice Cream
+                </h6>
+                <h6 class="time">16 Min</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="locatily">
+        <h1 class="locatily-heading">Cannaught Place Locality Restaurants</h1>
+
+        <div class="locatity-card">
+          <div class="anu">
+            <div class="body-card">
+              <img
+                src="Assets/food_card (69).jpg"
+                class="food-img-body"
+                alt=""
+              />
+              <div class="food-body">
+                <h6 class="food-img-body-heading">28 Spice Club</h6>
+                <a href="#" class="rating"
+                  >3.2 <i class="fa-solid fa-star rating-icon"></i
+                ></a>
+              </div>
+              <div class="food-body2">
+                <p class="food-para">Pizza, Sandwich, Burger, P...</p>
+                <p class="food-para">₹150 for One</p>
+              </div>
+              <p class="del-time">31 Min</p>
+            </div>
+
+            <div class="body-card">
+              <img
+                src="Assets/food_card (25).jpg"
+                class="food-img-body"
+                alt=""
+              />
+              <div class="food-body">
+                <h6 class="food-img-body-heading">Raimen's Cafe79</h6>
+                <a href="#" class="rating"
+                  >4.4 <i class="fa-solid fa-star rating-icon"></i
+                ></a>
+              </div>
+              <div class="food-body2">
+                <p class="food-para">North Indian</p>
+                <p class="food-para">₹100 for One</p>
+              </div>
+              <p class="del-time">25 Min</p>
+            </div>
+            <div class="body-card">
+              <img
+                src="Assets/food_card (75).jpg"
+                class="food-img-body"
+                alt=""
+              />
+              <div class="food-body">
+                <h6 class="food-img-body-heading">Satkar Restaurant</h6>
+                <a href="#" class="rating"
+                  >4.2 <i class="fa-solid fa-star rating-icon"></i
+                ></a>
+              </div>
+              <div class="food-body2">
+                <p class="food-para">North Indian, Chinese..</p>
+                <p class="food-para">₹150 for One</p>
+              </div>
+              <p class="del-time">19 Min</p>
+            </div>
+          </div>
+
+          <div class="anu2">
+            <div class="body-card">
+              <img
+                src="Assets/food_card (51).jpg"
+                class="food-img-body"
+                alt=""
+              />
+              <div class="food-body">
+                <h6 class="food-img-body-heading">Shree Naivedyam</h6>
+                <a href="#" class="rating"
+                  >3.9 <i class="fa-solid fa-star rating-icon"></i
+                ></a>
+              </div>
+              <div class="food-body2">
+                <p class="food-para">North Indian, Cafe, Pizza..</p>
+                <p class="food-para">₹400 for One</p>
+              </div>
+              <p class="del-time">21 Min</p>
+            </div>
+
+            <div class="body-card">
+              <img
+                src="Assets/food_card (4).jpg"
+                class="food-img-body"
+                alt=""
+              />
+              <div class="food-body">
+                <h6 class="food-img-body-heading">Domino's Pizza</h6>
+                <a href="#" class="rating"
+                  >4.2 <i class="fa-solid fa-star rating-icon"></i
+                ></a>
+              </div>
+              <div class="food-body2">
+                <p class="food-para">Pizza, Italian, Pasta..</p>
+                <p class="food-para">₹200 for One</p>
+              </div>
+              <p class="del-time">26 Min</p>
+            </div>
+            <div class="body-card">
+              <img
+                src="Assets/food_card (46).jpg"
+                class="food-img-body"
+                alt=""
+              />
+              <div class="food-body">
+                <h6 class="food-img-body-heading">Adil Hotel</h6>
+                <a href="#" class="rating"
+                  >2.2 <i class="fa-solid fa-star rating-icon"></i
+                ></a>
+              </div>
+              <div class="food-body2">
+                <p class="food-para">North Indian, Mughlai...</p>
+                <p class="food-para">₹150 for One</p>
+              </div>
+              <p class="del-time">17 Min</p>
+            </div>
+          </div>
+
+          <div class="anu2">
+            <div class="body-card">
+              <img
+                src="Assets/food_card (82).jpg"
+                class="food-img-body"
+                alt=""
+              />
+              <div class="food-body">
+                <h6 class="food-img-body-heading">Bluechilli</h6>
+                <a href="#" class="rating"
+                  >3.2 <i class="fa-solid fa-star rating-icon"></i
+                ></a>
+              </div>
+              <div class="food-body2">
+                <p class="food-para">Chinese, Fast Food, Cafe..</p>
+                <p class="food-para">₹250 for One</p>
+              </div>
+              <p class="del-time">31 Min</p>
+            </div>
+
+            <div class="body-card">
+              <img
+                src="Assets/food_card (91).jpg"
+                class="food-img-body"
+                alt=""
+              />
+              <div class="food-body">
+                <h6 class="food-img-body-heading">Roof5</h6>
+                <a href="#" class="rating"
+                  >3.8 <i class="fa-solid fa-star rating-icon"></i
+                ></a>
+              </div>
+              <div class="food-body2">
+                <p class="food-para">North Indian, Pizza, Shake</p>
+                <p class="food-para">₹350 for One</p>
+              </div>
+              <p class="del-time">41 Min</p>
+            </div>
+            <div class="body-card">
+              <img
+                src="Assets/food_card (94).jpg"
+                class="food-img-body"
+                alt=""
+              />
+              <div class="food-body">
+                <h6 class="food-img-body-heading">Champaran Handi</h6>
+                <a href="#" class="rating"
+                  >4.2 <i class="fa-solid fa-star rating-icon"></i
+                ></a>
+              </div>
+              <div class="food-body2">
+                <p class="food-para">North Indian</p>
+                <p class="food-para">₹150 for One</p>
+              </div>
+              <p class="del-time">44 Min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="end-part">
+          <div class="end-part2">
+            <div class="end-line">
+              <h4>End of search results</h4>
+            </div>
+            <div class="end-img">
+              <img src="Assets/icon (1).jpeg" class="house-img" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="drowp-end">
+
+          <div class="drop-part2">
+            <p  style="font-size: 30px;font-weight: 500; opacity: 0.8;">Explore options near me</p>
+
+            <select disabled class="endtesto">
+            <option value="0">Popular Cuisines Near Me</option>
+          </select>
+          <select disabled class="endtesto">
+            <option value="0">Popular Restaurant Types Near me</option>
+          </select>
+          <select disabled class="endtesto">
+            <option value="0">Cities We Deliver To</option>
+          </select>
+          </div>
+
+
+
+
+        </div>
+        <div>
+          <img src="Assets/Screenshot (86).png" alt="">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
